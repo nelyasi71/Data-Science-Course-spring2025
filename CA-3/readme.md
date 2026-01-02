@@ -1,20 +1,70 @@
-Cancer Prediction:
-<li>Performed data preprocessing including feature engineering and encoding of clinical records</li>
-<li>Conducted exploratory analysis to assess feature relationships and predictive relevance</li>
-<li>Trained and tuned multiple ML classifiers (XGBoost, LightGBM, CatBoost) using cross-validation</li>
-<li>Evaluated models with accuracy, precision, recall, and F1-score</li>
-<li>Selected the best model and generated predictions for the unseen test dataset</li>
 
-Bike Rental Prediction:
-<li>Conducted data preprocessing and feature engineering on temporal and weather-related variables</li>
-<li>Built regression pipelines integrating numerical scaling and categorical encoding</li>
-<li>Trained and evaluated multiple predictive models using cross-validation</li>
-<li>Tuned hyperparameters to improve generalization performance</li>
-<li>Selected the best model to generate final predictions for bike rental demand</li>
+# CA-3: Classical Machine Learning
 
-Recommender System:
-<li>Integrated user–item rating data with social trust relationships</li>
-<li>Constructed feature vectors using collaborative filtering signals and trust-weighted statistics</li>
-<li>Developed and trained an XGBoost regression model to predict user movie ratings</li>
-<li>Evaluated performance using a hold-out validation split</li>
-<li>Generated final rating predictions for unseen user–item pairs</li>
+This assignment focuses on **classical machine learning techniques**, including
+classification, regression, and recommendation systems.
+The goal is to gain hands-on experience with **feature engineering, model training,
+evaluation, and comparison** using real datasets.
+
+---
+
+## What This Project Does
+
+In this project, I implemented multiple machine learning pipelines to solve different
+prediction tasks.Each task follows a standard ML workflow:
+
+- Data preprocessing
+- Feature engineering
+- Model training
+- Evaluation and comparison
+
+The emphasis is on **understanding model behavior and performance**, rather than deep learning.
+
+---
+
+## 📂 Project Files and Purpose
+
+| Folder / File             | Purpose                                  |
+| ------------------------- | ---------------------------------------- |
+| `CancerPrediction/`     | Classification task using medical data   |
+| `BikeRentalPrediction/` | Regression task for demand prediction    |
+| `Recommender System/`   | Recommendation system implementation     |
+| `readme.md`             | Assignment description and task overview |
+| `*.ipynb`               | Jupyter notebooks for each ML task       |
+
+---
+
+## Implemented Tasks
+
+### 🔹 Cancer Prediction (Classification)
+
+- Cleaned and preprocessed medical dataset
+- Engineered relevant features
+- Trained and evaluated classification models
+- Compared model performance using evaluation metrics
+
+---
+
+### 🔹 Bike Rental Prediction (Regression)
+
+- Analyzed bike rental data
+- Built regression models to predict rental demand
+- Evaluated models using error metrics
+- Interpreted model predictions
+
+---
+
+### 🔹 Recommender System
+
+- Implemented a recommendation approach
+- Used machine learning models to predict preferences
+- Evaluated recommendation quality
+
+---
+
+## How to Run the Project
+
+```bash
+git clone https://github.com/nelyasi71/Data-Science-Course-spring2025.git
+cd Data-Science-Course-spring2025/CA-3
+```

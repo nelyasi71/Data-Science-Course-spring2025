@@ -1,18 +1,96 @@
-Task 1:
-<li>Performed data preprocessing, exploratory analysis, and feature standardization on historical match results</li>
-<li>Developed a neural network classifier (MLP) to model match outcomes (home win, tie, away win)</li>
-<li>Applied class balancing techniques and evaluated model performance on held-out World Cup matches</li>
-<li>Simulated the 2022 tournament using model-based match predictions and engineered team strength statistics</li>
 
-Task 2:
-<li>Loaded a multi-class flower image dataset and applied data preprocessing and augmentation</li>
-<li>Implemented a custom CNN model and a transfer-learning approach using ResNet-50</li>
-<li>Trained models with staged fine-tuning strategies to improve feature adaptation</li>
-<li>Evaluated performance using accuracy, precision, recall, F1-score, ROC curves, and confusion matrices</li>
+# CA-5 & CA-6: Natural Language Processing, Information Retrieval & Computer Vision
 
-Task 3:
-<li>Performed time-series preprocessing and exploratory analysis on historical Bitcoin OHLCV data</li>
-<li>Engineered supervised sequences to predict next-day percentage price movement</li>
-<li>Trained and validated recurrent neural network models (RNN and LSTM) using sliding-window inputs</li>
-<li>Evaluated prediction performance with regression metrics and error trend visualizations</li>
-<li>Benchmarked RNN vs. LSTM architectures and analyzed the effect of different lookback windows</li>
+This assignment focuses on advanced data science topics, including
+**natural language processing (NLP)**, **information retrieval (IR)**,
+**transformer-based models**, and **computer vision pipelines**.
+The goal is to apply modern techniques to text and image data while
+analyzing model behavior and performance.
+
+---
+
+## What This Project Does
+
+In this project, I implemented multiple tasks covering text processing,
+search systems, pretrained language models, and image analysis.
+Each task emphasizes:
+
+- Proper data preprocessing
+- Feature representation and modeling
+- Quantitative and qualitative evaluation
+- Comparison of different methodological approaches
+
+---
+
+## 📂 Project Files and Structure
+
+| File / Folder   | Purpose                               |
+| --------------- | ------------------------------------- |
+| `Task1/`      | Text preprocessing and supervised NLP |
+| `Task2.ipynb` | Full-text vs semantic search          |
+| `Task3.ipynb` | Transformer-based NLP modeling        |
+| `Task4.ipynb` | Computer vision pipeline              |
+| `CA5&6.pdf`   | Assignment description                |
+| `*.ipynb`     | Jupyter notebooks for each task       |
+
+---
+
+## Implemented Tasks (Detailed)
+
+### 🔹 Task 1 – Text Preprocessing & Supervised NLP
+
+- Loaded and cleaned raw text data
+- Performed tokenization, stopword removal, and normalization
+- Extracted textual features using vectorization techniques
+- Trained supervised machine learning models on text features
+- Evaluated classification performance using standard metrics
+
+**Key concepts:**
+Text normalization, feature extraction, supervised NLP
+
+---
+
+### 🔹 Task 2 – Information Retrieval: Full-Text vs Semantic Search
+
+- Implemented a traditional full-text search approach
+- Built a semantic search system using vector embeddings
+- Compared retrieval results qualitatively and quantitatively
+- Analyzed strengths and limitations of each approach
+
+**Key concepts:**
+Information retrieval, embeddings, semantic similarity
+
+---
+
+### 🔹 Task 3 – Transformer-Based NLP Models
+
+- Used HuggingFace datasets for NLP experimentation
+- Loaded pretrained transformer models
+- Fine-tuned models for downstream NLP tasks
+- Evaluated model performance using standard NLP benchmarks
+- Analyzed the effect of fine-tuning on model accuracy and generalization
+
+**Key concepts:**
+Transformers, transfer learning, model evaluation
+
+---
+
+### 🔹 Task 4 – Computer Vision Pipeline
+
+- Loaded and preprocessed image data
+- Applied image transformations and augmentation
+- Implemented a computer vision pipeline for image analysis
+- Visualized intermediate and final results
+- Evaluated model outputs qualitatively and quantitatively
+
+**Key concepts:**
+Image processing, feature extraction, vision pipelines
+
+---
+
+## How to Run the Project
+
+```bash
+git clone https://github.com/nelyasi71/Data-Science-Course-spring2025.git
+cd Data-Science-Course-spring2025/CA-5-6
+```

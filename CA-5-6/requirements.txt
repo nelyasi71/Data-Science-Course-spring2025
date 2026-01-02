@@ -1,0 +1,23 @@
+numpy==1.26.4
+pandas==2.1.4
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# NLP
+nltk==3.8.1
+gensim==4.3.2
+scikit-learn==1.4.0
+
+# Transformers & evaluation
+transformers==4.36.2
+datasets==2.16.1
+evaluate==0.4.1
+torch==2.1.2
+
+# Computer Vision
+opencv-python==4.9.0.80
+pillow==10.2.0
+
+# Utilities
+jupyter==1.0.0
+tqdm==4.66.1
