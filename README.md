@@ -145,6 +145,7 @@ implemented as a complete, reproducible pipeline.
 ## 👤 Authors
 
 Students of the **Data Science Course – Spring 2025**
-Narges Mohammadi Elyasi
-Parmis Vaghef Davari 
-Mohammad Hossein Barabadi
+
+    -Narges Mohammadi Elyasi
+    -Parmis Vaghef Davari 
+    -Mohammad Hossein Barabadi
