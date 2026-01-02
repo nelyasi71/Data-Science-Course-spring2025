@@ -1,7 +1,7 @@
 # 📊 Data Science Course – Spring 2025
 
 This repository contains coursework, assignments, and the final project for the  
-**Data Science Course (Spring 2025)**.
+**Data Science Course (Spring 2025)** at The university of Tehran.
 
 It covers the complete data science pipeline, including probability and statistics,
 data analysis, machine learning, deep learning, natural language processing,
@@ -96,7 +96,7 @@ NLTK, Gensim, HuggingFace Transformers, OpenCV
 
 ---
 
-## 🚀 Main Project: End-to-End Language Modeling
+##  Main Project: End-to-End Language Modeling
 📁 **Folder:** `Main Project`
 
 A multi-phase data science project focused on **text analysis and language modeling**,
@@ -123,7 +123,7 @@ implemented as a complete, reproducible pipeline.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Languages:** Python
 - **Data:** Pandas, NumPy, SciPy
