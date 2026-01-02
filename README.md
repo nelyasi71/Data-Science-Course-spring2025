@@ -137,7 +137,6 @@ implemented as a complete, reproducible pipeline.
 
 ## 📌 Notes
 
-- Some folders contain alternate or backup notebook versions.
 - Generated datasets and intermediate outputs are included for reproducibility.
 - This repository is intended for **academic and educational use**.
 
@@ -146,3 +145,6 @@ implemented as a complete, reproducible pipeline.
 ## 👤 Authors
 
 Students of the **Data Science Course – Spring 2025**
+Narges Mohammadi Elyasi
+Parmis Vaghef Davari 
+Mohammad Hossein Barabadi
