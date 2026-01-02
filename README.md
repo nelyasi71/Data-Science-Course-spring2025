@@ -1,183 +1,148 @@
-\documentclass[11pt]{article}
+# 📊 Data Science Course – Spring 2025
 
-\usepackage[a4paper,margin=1in]{geometry}
-\usepackage{hyperref}
-\usepackage{setspace}
-\usepackage{titlesec}
-\usepackage{enumitem}
+This repository contains coursework, assignments, and the final project for the  
+**Data Science Course (Spring 2025)**.
 
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    urlcolor=blue,
-    pdftitle={Data Science Course – Spring 2025},
-    pdfauthor={Data Science Course Students}
-}
-
-\title{\textbf{Data Science Course -- Spring 2025}}
-\author{}
-\date{}
-
-\begin{document}
-\maketitle
-\vspace{-1em}
-
-\onehalfspacing
-
-\section*{Overview}
-This repository contains coursework, assignments, and the final project for the
-\textbf{Data Science Course (Spring 2025)}.
-The material covers the complete data science pipeline, including probability,
-statistics, data analysis, machine learning, deep learning, natural language processing,
+It covers the complete data science pipeline, including probability and statistics,
+data analysis, machine learning, deep learning, natural language processing,
 data engineering, and end-to-end project development.
 
-\section*{Repository Structure}
+---
 
-\begin{itemize}[leftmargin=2em]
-    \item \hyperref[ca0]{CA-0: Probability \& Statistics}
-    \item \hyperref[ca1]{CA-1: Data Analysis \& Visualization}
-    \item \hyperref[ca2]{CA-2: Data Engineering \& Streaming}
-    \item \hyperref[ca3]{CA-3: Classical Machine Learning}
-    \item \hyperref[ca4]{CA-4: Neural Networks \& Deep Learning}
-    \item \hyperref[ca56]{CA-5 \& CA-6: NLP, Information Retrieval \& Computer Vision}
-    \item \hyperref[mainproject]{Main Project: End-to-End Language Modeling}
-\end{itemize}
+## 📂 Repository Navigation
 
-\newpage
+- [CA-0: Probability & Statistics](#ca-0-probability--statistics)
+- [CA-1: Data Analysis & Visualization](#ca-1-data-analysis--visualization)
+- [CA-2: Data Engineering & Streaming](#ca-2-data-engineering--streaming)
+- [CA-3: Classical Machine Learning](#ca-3-classical-machine-learning)
+- [CA-4: Neural Networks & Deep Learning](#ca-4-neural-networks--deep-learning)
+- [CA-5 & CA-6: NLP, IR & Computer Vision](#ca-5--ca-6-nlp-ir--computer-vision)
+- [Main Project: End-to-End Language Modeling](#main-project-end-to-end-language-modeling)
 
-% ============================
-\section*{Course Assignments}
+---
 
-\subsection*{\label{ca0}CA-0: Probability \& Statistics}
-\textbf{Folder:} \texttt{CA-0}
+## CA-0: Probability & Statistics
+📁 **Folder:** `CA-0`
 
-\begin{itemize}
-    \item Monte Carlo simulations
-    \item Probability distributions and expectations
-    \item Confidence intervals and hypothesis testing
-    \item Statistical analysis on real-world datasets
-\end{itemize}
+- Monte Carlo simulations
+- Probability distributions and expectations
+- Confidence intervals and hypothesis testing
+- Statistical analysis on real-world datasets
 
-\textbf{Tools:} NumPy, Pandas, SciPy, Matplotlib
+**Tools:** NumPy, Pandas, SciPy, Matplotlib
 
-\bigskip
+---
 
-\subsection*{\label{ca1}CA-1: Data Analysis \& Visualization}
-\textbf{Folder:} \texttt{CA-1}
+## CA-1: Data Analysis & Visualization
+📁 **Folder:** `CA-1`
 
-\begin{itemize}
-    \item Exploratory data analysis on Airbnb datasets
-    \item Geographical and statistical insights
-    \item Visual analytics and reporting
-\end{itemize}
+- Exploratory data analysis on Airbnb datasets
+- Geographical and statistical insights
+- Visual analytics and reporting
 
-\textbf{Tools:} Pandas, Matplotlib, Tableau, Excel
+**Tools:** Pandas, Matplotlib, Tableau, Excel
 
-\bigskip
+---
 
-\subsection*{\label{ca2}CA-2: Data Engineering \& Streaming}
-\textbf{Folder:} \texttt{CA-2}
+## CA-2: Data Engineering & Streaming
+📁 **Folder:** `CA-2`
 
-\begin{itemize}
-    \item Streaming data pipelines
-    \item Kafka-based consumers and producers
-    \item Containerized environments with Docker
-\end{itemize}
+- Streaming data pipelines
+- Kafka producers and consumers
+- Containerized environments using Docker
 
-\textbf{Tools:} Kafka, Docker, PySpark, MongoDB
+**Tools:** Kafka, Docker, PySpark, MongoDB
 
-\bigskip
+---
 
-\subsection*{\label{ca3}CA-3: Classical Machine Learning}
-\textbf{Folder:} \texttt{CA-3}
+## CA-3: Classical Machine Learning
+📁 **Folder:** `CA-3`
 
-\begin{itemize}
-    \item Classification and regression tasks
-    \item Feature engineering and model evaluation
-    \item Recommender systems
-\end{itemize}
+- Classification and regression models
+- Feature engineering and model evaluation
+- Recommender systems
 
-\textbf{Applications:}
-\begin{itemize}
-    \item Cancer prediction
-    \item Bike rental prediction
-    \item Recommendation systems
-\end{itemize}
+**Applications:**
+- Cancer prediction
+- Bike rental prediction
+- Recommendation systems
 
-\textbf{Tools:} Scikit-learn, XGBoost
+**Tools:** Scikit-learn, XGBoost
 
-\bigskip
+---
 
-\subsection*{\label{ca4}CA-4: Neural Networks \& Deep Learning}
-\textbf{Folder:} \texttt{CA-4}
+## CA-4: Neural Networks & Deep Learning
+📁 **Folder:** `CA-4`
 
-\begin{itemize}
-    \item Feedforward neural networks
-    \item Match outcome prediction
-    \item Model evaluation and comparison
-    \item Convolutional neural network theory (bonus)
-\end{itemize}
+- Feedforward neural networks
+- Match outcome prediction
+- Model evaluation and comparison
+- CNN theory (bonus)
 
-\textbf{Tools:} PyTorch, TensorFlow/Keras
+**Tools:** PyTorch, TensorFlow / Keras
 
-\bigskip
+---
 
-\subsection*{\label{ca56}CA-5 \& CA-6: NLP, Information Retrieval \& Computer Vision}
-\textbf{Folder:} \texttt{CA-5-6}
+## CA-5 & CA-6: NLP, IR & Computer Vision
+📁 **Folder:** `CA-5-6`
 
-\begin{itemize}
-    \item Text preprocessing and vectorization
-    \item Full-text search vs semantic search
-    \item Transformer-based NLP models
-    \item Image processing and segmentation
-\end{itemize}
+- Text preprocessing and vectorization
+- Full-text search vs semantic search
+- Transformer-based NLP models
+- Image processing and segmentation pipelines
 
-\textbf{Tools:} NLTK, Gensim, HuggingFace Transformers, OpenCV
+**Tools:**  
+NLTK, Gensim, HuggingFace Transformers, OpenCV
 
-\newpage
+---
 
-% ============================
-\section*{\label{mainproject}Main Project: End-to-End Language Modeling}
+## 🚀 Main Project: End-to-End Language Modeling
+📁 **Folder:** `Main Project`
 
-The main project is a multi-phase data science project focused on
-\textbf{text analysis and language modeling}, developed as an end-to-end pipeline.
+A multi-phase data science project focused on **text analysis and language modeling**,
+implemented as a complete, reproducible pipeline.
 
-\subsection*{Phase 1: Text Analysis \& Feature Engineering}
-\begin{itemize}
-    \item Text preprocessing and tokenization
-    \item Word, n-gram, and sentence statistics
-    \item Exploratory analysis and visualization
-\end{itemize}
+### Phase 1 – Text Analysis & Feature Engineering
+- Text preprocessing and tokenization
+- Word, n-gram, and sentence statistics
+- Exploratory text analysis and visualization
 
-\subsection*{Phase 2: Data Management}
-\begin{itemize}
-    \item Dataset construction
-    \item Structured storage using CSV and SQLite
-\end{itemize}
+### Phase 2 – Data Management
+- Dataset construction
+- Structured storage using CSV and SQLite
 
-\subsection*{Phase 3: Modeling \& Training}
-\begin{itemize}
-    \item LSTM and Transformer models
-    \item Pretrained model fine-tuning
-    \item Experiment tracking with MLflow
-\end{itemize}
+### Phase 3 – Modeling & Training
+- LSTM and Transformer models
+- Pretrained model fine-tuning
+- Experiment tracking with MLflow
 
-\subsection*{Pipeline \& Automation}
-\begin{itemize}
-    \item Modular preprocessing and training scripts
-    \item Reproducible experiment setup
-    \item Continuous integration with GitHub Actions
-\end{itemize}
+### Pipeline & Automation
+- Modular preprocessing and training scripts
+- Reproducible experiment setup
+- Continuous integration using GitHub Actions
 
-% ============================
-\section*{Notes}
-\begin{itemize}
-    \item Some folders contain alternate or backup notebook versions.
-    \item Generated datasets and intermediate outputs are included for reproducibility.
-    \item This repository is intended for academic and educational use.
-\end{itemize}
+---
 
-\section*{Authors}
-Students of the \textbf{Data Science Course -- Spring 2025}
+## 🛠️ Technologies Used
 
-\end{document}
+- **Languages:** Python
+- **Data:** Pandas, NumPy, SciPy
+- **ML / DL:** Scikit-learn, PyTorch, Transformers
+- **NLP:** NLTK, Gensim, HuggingFace
+- **Visualization:** Matplotlib, Seaborn, Tableau
+- **Engineering:** Docker, Kafka, Spark
+- **Tracking:** MLflow
+
+---
+
+## 📌 Notes
+
+- Some folders contain alternate or backup notebook versions.
+- Generated datasets and intermediate outputs are included for reproducibility.
+- This repository is intended for **academic and educational use**.
+
+---
+
+## 👤 Authors
+
+Students of the **Data Science Course – Spring 2025**
