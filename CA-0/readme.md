@@ -1,20 +1,65 @@
-Question 1: 
-The objective of this question is to analyze the fairness and expected earnings in American roulette when consistently betting on black. We apply both theoretical probability and Monte-Carlo simulation to:
-<li>Compute the probability of winning/losing per spin</li>
-<li>Derive expectation and variance of total earnings</li>
-<li>Visualize the distribution of outcomes for different spin counts</li>
-<li>Demonstrate convergence behavior predicted by the Law of Large Numbers and Central Limit Theorem</li>
+# CA-0: Probability & Statistics
 
+This assignment implements a set of **probability and statistical analysis problems** using Python and Jupyter notebooks.
+Each part focuses on a specific concept and combines **theoretical reasoning** with **simulation and data analysis**.
 
-Question 2:
-<li>Used the Central Limit Theorem to build 95% confidence intervals for proportions</li>
-<li>Simulated polling to check how often CIs capture the true proportion</li>
-<li>Analyzed real 2016 U.S. election polling data (Clinton vs. Trump)</li>
-<li>Calculated weighted candidate support and confidence intervals</li>
-<li>Performed a hypothesis test to determine whether the race was statistically tied</li>
+---
 
-Question 3:
-<li>Performed data cleaning and preprocessing on clinical safety data</li>
-<li>Conducted descriptive statistics and group stratification</li>
-<li>Applied inferential testing to evaluate treatment effects</li>
-<li>Found no statistically significant differences between treatment and control groups</li>
+## What This Project Does
+
+In this project, I solved probability and statistics questions by:
+
+- Simulating random experiments
+- Computing analytical probability measures
+- Visualizing distributions
+- Applying statistical inference techniques on real data
+
+The goal was to verify theoretical results through code and gain practical experience with statistical tools.
+
+---
+
+## Project Files and Purpose
+
+| File                | What it Contains                                        |
+| ------------------- | ------------------------------------------------------- |
+| `CA0.pdf`         | Official assignment questions                           |
+| `p1.ipynb`        | Probability problems solved using simulation            |
+| `p2.ipynb`        | Analysis and visualization of probability distributions |
+| `q3.ipynb`        | Statistical inference and hypothesis testing            |
+| `drug_safety.csv` | Dataset used for statistical tests                      |
+
+## Implemented Tasks (Concrete)
+
+### 🔹 `p1.ipynb` – Probability & Simulation
+
+- Defined random experiments and sample spaces
+- Used Monte Carlo simulation to estimate probabilities
+- Compared simulated results with exact analytical values
+
+---
+
+### 🔹 `p2.ipynb` – Distributions & Statistics
+
+- Worked with probability distributions
+- Computed mean and variance
+- Visualized distributions using plots
+- Analyzed how distribution parameters affect shape and spread
+
+---
+
+### 🔹 `q3.ipynb` – Statistical Inference on Real Data
+
+- Loaded and explored the `drug_safety.csv` dataset
+- Computed descriptive statistics
+- Constructed confidence intervals
+- Performed hypothesis testing using statistical tests
+- Interpreted results based on p-values and confidence levels
+
+---
+
+## How to Run the Project
+
+```bash
+git clone https://github.com/nelyasi71/Data-Science-Course-spring2025.git
+cd Data-Science-Course-spring2025/CA-0
+```
